@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Cable - Prime Time Schedule</title>
+    <style>
+      body {
+        font-family: Century Gothic, sans-serif;
+        margin: 20px;
+        background-color: #f0f0f0;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .header h1 {
+        color: #2c3e50;
+        margin-bottom: 5px;
+      }
+
+      .header h2 {
+        color: #34495e;
+        font-weight: normal;
+        margin-top: 0;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      th,
+      td {
+        border: 2px solid #2c3e50;
+        padding: 8px;
+        text-align: center;
+        vertical-align: middle;
+      }
+
+      th {
+        background-color: #2c3e50;
+        color: white;
+        font-weight: bold;
+      }
+
+      .time-header {
+        background-color: #34495e;
+        color: white;
+        font-weight: bold;
+        width: 100px;
+      }
+
+      .day-header {
+        background-color: #2c3e50;
+        color: white;
+        font-weight: bold;
+      }
+
+      .comedy {
+        background-color: #f39c12;
+        color: white;
+      }
+
+      .drama {
+        background-color: #e74c3c;
+        color: white;
+      }
+
+      .reality {
+        background-color: #9b59b6;
+        color: white;
+      }
+
+      .news {
+        background-color: #3498db;
+        color: white;
+      }
+
+      .movie {
+        background-color: #2ecc71;
+        color: white;
+      }
+
+      .sports {
+        background-color: #e67e22;
+        color: white;
+      }
+
+      .game-show {
+        background-color: #1abc9c;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>HOME CABLE</h1>
+      <h2>Prime Time Television Schedule (7:00 PM - 10:00 PM)</h2>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th class="time-header">Time</th>
+          <th class="day-header">Monday</th>
+          <th class="day-header">Tuesday</th>
+          <th class="day-header">Wednesday</th>
+          <th class="day-header">Thursday</th>
+          <th class="day-header">Friday</th>
+          <th class="day-header">Saturday</th>
+          <th class="day-header">Sunday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="time-header">7:00 PM</td>
+          <td class="comedy">Comedy Central<br />Sitcom Hour</td>
+          <td class="reality">Reality Check</td>
+          <td class="drama">Drama Night<br />Series Premiere</td>
+          <td class="comedy">Laugh Track</td>
+          <td class="movie" rowspan="4">
+            Friday Night<br />Movie Special<br /><br />"Action Hero"<br />(2
+            Hours)
+          </td>
+          <td class="sports" rowspan="2">
+            Saturday<br />Sports Central<br />(1 Hour)
+          </td>
+          <td class="news">Sunday News<br />Weekly Wrap</td>
+        </tr>
+        <tr>
+          <td class="time-header">7:30 PM</td>
+          <td class="comedy">Comedy Central<br />Stand-Up Special</td>
+          <td class="reality">Reality Check<br />Continues</td>
+          <td class="drama">Drama Night<br />Episode 2</td>
+          <td class="comedy">Laugh Track<br />Best Moments</td>
+          <!-- Friday spans from above -->
+          <!-- Saturday spans from above -->
+          <td class="news">Sunday News<br />Sports Recap</td>
+        </tr>
+        <tr>
+          <td class="time-header">8:00 PM</td>
+          <td class="drama" rowspan="2">
+            Monday Night<br />Movie<br /><br />"Thriller Night"<br />(1 Hour)
+          </td>
+          <td class="game-show">Quiz Masters</td>
+          <td class="reality" rowspan="2">
+            Wednesday<br />Reality Special<br /><br />"Survival Challenge"<br />(1
+            Hour)
+          </td>
+          <td class="drama" rowspan="2">
+            Thursday<br />Drama Series<br /><br />"Mystery Files"<br />(1 Hour)
+          </td>
+          <!-- Friday spans from above -->
+          <td class="movie" rowspan="2">
+            Saturday Night<br />Classic Film<br /><br />"Romance Story"<br />(1
+            Hour)
+          </td>
+          <td class="sports" rowspan="2">
+            Sunday Night<br />Football<br /><br />Game Highlights<br />(1 Hour)
+          </td>
+        </tr>
+        <tr>
+          <td class="time-header">8:30 PM</td>
+          <!-- Monday spans from above -->
+          <td class="game-show">Quiz Masters<br />Championship</td>
+          <!-- Wednesday spans from above -->
+          <!-- Thursday spans from above -->
+          <!-- Friday spans from above -->
+          <!-- Saturday spans from above -->
+          <!-- Sunday spans from above -->
+        </tr>
+        <tr>
+          <td class="time-header">9:00 PM</td>
+          <td class="news">Monday Night<br />News Special</td>
+          <td class="drama" rowspan="2">
+            Tuesday Night<br />Drama Marathon<br /><br />"Crime Scene"<br />(1
+            Hour)
+          </td>
+          <td class="comedy">Wednesday<br />Comedy Hour</td>
+          <td class="reality">Reality TV<br />All-Stars</td>
+          <!-- Friday spans from above -->
+          <td class="comedy" rowspan="2">
+            Saturday<br />Comedy Night<br /><br />"Stand-Up Live"<br />(1 Hour)
+          </td>
+          <td class="movie" rowspan="2">
+            Sunday Night<br />Movie<br /><br />"Family Film"<br />(1 Hour)
+          </td>
+        </tr>
+        <tr>
+          <td class="time-header">9:30 PM</td>
+          <td class="news">Monday Night<br />Weather Update</td>
+          <!-- Tuesday spans from above -->
+          <td class="comedy">Wednesday<br />Late Comedy</td>
+          <td class="reality">Reality TV<br />Reunion Show</td>
+          <td class="news">Friday Night<br />News</td>
+          <!-- Saturday spans from above -->
+          <!-- Sunday spans from above -->
+        </tr>
+      </tbody>
+    </table>
+
+    <div
+      style="
+        margin-top: 10px;
+        text-align: center;
+        font-size: 12px;
+        color: #666;
+        flex-shrink: 0;
+      "
+    >
+      <p>
+        <strong>Legend:</strong>
+        <span
+          style="
+            background-color: #f39c12;
+            color: white;
+            padding: 2px 5px;
+            margin: 0 5px;
+          "
+          >Comedy</span
+        >
+        <span
+          style="
+            background-color: #e74c3c;
+            color: white;
+            padding: 2px 5px;
+            margin: 0 5px;
+          "
+          >Drama</span
+        >
+        <span
+          style="
+            background-color: #9b59b6;
+            color: white;
+            padding: 2px 5px;
+            margin: 0 5px;
+          "
+          >Reality</span
+        >
+        <span
+          style="
+            background-color: #3498db;
+            color: white;
+            padding: 2px 5px;
+            margin: 0 5px;
+          "
+          >News</span
+        >
+        <span
+          style="
+            background-color: #2ecc71;
+            color: white;
+            padding: 2px 5px;
+            margin: 0 5px;
+          "
+          >Movie</span
+        >
+        <span
+          style="
+            background-color: #e67e22;
+            color: white;
+            padding: 2px 5px;
+            margin: 0 5px;
+          "
+          >Sports</span
+        >
+        <span
+          style="
+            background-color: #1abc9c;
+            color: white;
+            padding: 2px 5px;
+            margin: 0 5px;
+          "
+          >Game Show</span
+        >
+      </p>
+      <p>All times are in Eastern Time Zone</p>
+    </div>
+  </body>
+</html>
